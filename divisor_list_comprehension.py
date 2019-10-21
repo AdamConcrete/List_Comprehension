@@ -15,14 +15,6 @@ if divisor:
 else:
 	print('Can not divide by zero')
 
-#ODD or EVEN:
-#The user inputs numbers and the program determines which are odd and which even.
-#It also print the number of odd and even number.
-
-user_numbers = [int(input('Enter some numbers please: '))]
-odd = []
-even = []
-odd = [num if num % 2 == 0 else even.append(num) for num in user_numbers]
 
 
 
